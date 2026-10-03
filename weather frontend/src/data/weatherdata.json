@@ -1,0 +1,292 @@
+{
+  "Chennai": {
+    "city": "Chennai",
+    "country": "IN",
+    "current": {
+      "temperature": 31,
+      "feelsLike": 35,
+      "humidity": 72,
+      "pressure": 1008,
+      "windSpeed": 4.2,
+      "visibility": 10,
+      "cloudiness": 25,
+      "condition": "Clouds",
+      "description": "scattered clouds",
+      "icon": "03d"
+    },
+    "forecast": [
+      {
+        "date": "2026-10-02",
+        "day": "Today",
+        "temperature": 31,
+        "condition": "Clouds",
+        "description": "scattered clouds",
+        "icon": "03d"
+      },
+      {
+        "date": "2026-10-03",
+        "day": "Saturday",
+        "temperature": 32,
+        "condition": "Clear",
+        "description": "clear sky",
+        "icon": "01d"
+      },
+      {
+        "date": "2026-10-04",
+        "day": "Sunday",
+        "temperature": 30,
+        "condition": "Rain",
+        "description": "light rain",
+        "icon": "10d"
+      },
+      {
+        "date": "2026-10-05",
+        "day": "Monday",
+        "temperature": 29,
+        "condition": "Rain",
+        "description": "moderate rain",
+        "icon": "10d"
+      },
+      {
+        "date": "2026-10-06",
+        "day": "Tuesday",
+        "temperature": 31,
+        "condition": "Clouds",
+        "description": "broken clouds",
+        "icon": "04d"
+      }
+    ]
+  },
+  "Bangalore": {
+    "city": "Bangalore",
+    "country": "IN",
+    "current": {
+      "temperature": 25,
+      "feelsLike": 26,
+      "humidity": 65,
+      "pressure": 1012,
+      "windSpeed": 3.6,
+      "visibility": 9,
+      "cloudiness": 40,
+      "condition": "Clouds",
+      "description": "few clouds",
+      "icon": "02d"
+    },
+    "forecast": [
+      {
+        "date": "2026-10-02",
+        "day": "Friday",
+        "temperature": 25,
+        "condition": "Clouds",
+        "description": "few clouds",
+        "icon": "02d"
+      },
+      {
+        "date": "2026-10-03",
+        "day": "Saturday",
+        "temperature": 26,
+        "condition": "Clouds",
+        "description": "partly cloudy",
+        "icon": "03d"
+      },
+      {
+        "date": "2026-10-04",
+        "day": "Sunday",
+        "temperature": 24,
+        "condition": "Rain",
+        "description": "light rain shower",
+        "icon": "10d"
+      },
+      {
+        "date": "2026-10-05",
+        "day": "Monday",
+        "temperature": 25,
+        "condition": "Clouds",
+        "description": "scattered clouds",
+        "icon": "03d"
+      },
+      {
+        "date": "2026-10-06",
+        "day": "Tuesday",
+        "temperature": 26,
+        "condition": "Clear",
+        "description": "clear sky",
+        "icon": "01d"
+      }
+    ]
+  },
+  "Mumbai": {
+    "city": "Mumbai",
+    "country": "IN",
+    "current": {
+      "temperature": 30,
+      "feelsLike": 34,
+      "humidity": 78,
+      "pressure": 1009,
+      "windSpeed": 5.1,
+      "visibility": 8,
+      "cloudiness": 50,
+      "condition": "Haze",
+      "description": "haze",
+      "icon": "50d"
+    },
+    "forecast": [
+      {
+        "date": "2026-10-02",
+        "day": "Friday",
+        "temperature": 30,
+        "condition": "Haze",
+        "description": "haze",
+        "icon": "50d"
+      },
+      {
+        "date": "2026-10-03",
+        "day": "Saturday",
+        "temperature": 31,
+        "condition": "Clouds",
+        "description": "scattered clouds",
+        "icon": "03d"
+      },
+      {
+        "date": "2026-10-04",
+        "day": "Sunday",
+        "temperature": 30,
+        "condition": "Rain",
+        "description": "light rain",
+        "icon": "10d"
+      },
+      {
+        "date": "2026-10-05",
+        "day": "Monday",
+        "temperature": 29,
+        "condition": "Rain",
+        "description": "heavy intensity rain",
+        "icon": "10d"
+      },
+      {
+        "date": "2026-10-06",
+        "day": "Tuesday",
+        "temperature": 30,
+        "condition": "Clouds",
+        "description": "overcast clouds",
+        "icon": "04d"
+      }
+    ]
+  },
+  "Delhi": {
+    "city": "Delhi",
+    "country": "IN",
+    "current": {
+      "temperature": 33,
+      "feelsLike": 36,
+      "humidity": 55,
+      "pressure": 1010,
+      "windSpeed": 2.8,
+      "visibility": 6,
+      "cloudiness": 15,
+      "condition": "Clear",
+      "description": "clear sky",
+      "icon": "01d"
+    },
+    "forecast": [
+      {
+        "date": "2026-10-02",
+        "day": "Friday",
+        "temperature": 33,
+        "condition": "Clear",
+        "description": "clear sky",
+        "icon": "01d"
+      },
+      {
+        "date": "2026-10-03",
+        "day": "Saturday",
+        "temperature": 34,
+        "condition": "Clear",
+        "description": "sunny",
+        "icon": "01d"
+      },
+      {
+        "date": "2026-10-04",
+        "day": "Sunday",
+        "temperature": 32,
+        "condition": "Clouds",
+        "description": "scattered clouds",
+        "icon": "03d"
+      },
+      {
+        "date": "2026-10-05",
+        "day": "Monday",
+        "temperature": 31,
+        "condition": "Clouds",
+        "description": "broken clouds",
+        "icon": "04d"
+      },
+      {
+        "date": "2026-10-06",
+        "day": "Tuesday",
+        "temperature": 32,
+        "condition": "Clear",
+        "description": "clear sky",
+        "icon": "01d"
+      }
+    ]
+  },
+  "Hyderabad": {
+    "city": "Hyderabad",
+    "country": "IN",
+    "current": {
+      "temperature": 28,
+      "feelsLike": 30,
+      "humidity": 68,
+      "pressure": 1011,
+      "windSpeed": 3.9,
+      "visibility": 9,
+      "cloudiness": 35,
+      "condition": "Clouds",
+      "description": "scattered clouds",
+      "icon": "03d"
+    },
+    "forecast": [
+      {
+        "date": "2026-10-02",
+        "day": "Friday",
+        "temperature": 28,
+        "condition": "Clouds",
+        "description": "scattered clouds",
+        "icon": "03d"
+      },
+      {
+        "date": "2026-10-03",
+        "day": "Saturday",
+        "temperature": 29,
+        "condition": "Clouds",
+        "description": "broken clouds",
+        "icon": "04d"
+      },
+      {
+        "date": "2026-10-04",
+        "day": "Sunday",
+        "temperature": 27,
+        "condition": "Rain",
+        "description": "moderate rain",
+        "icon": "10d"
+      },
+      {
+        "date": "2026-10-05",
+        "day": "Monday",
+        "temperature": 28,
+        "condition": "Clouds",
+        "description": "partly cloudy",
+        "icon": "02d"
+      },
+      {
+        "date": "2026-10-06",
+        "day": "Tuesday",
+        "temperature": 29,
+        "condition": "Clear",
+        "description": "clear sky",
+        "icon": "01d"
+      }
+    ]
+  }
+}
