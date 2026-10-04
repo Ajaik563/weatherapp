@@ -13,7 +13,8 @@ export async function getWeather(city) {
     });
 
     const current = currentResponse.data;
-console.log(current);
+
+    console.log("Current weather:", current);
 
     const forecastResponse = await axios.get(
       `${API_URL}/forecast`,
@@ -52,28 +53,22 @@ console.log(current);
 
   } catch (error) {
 
-    if (error.response?.status === 404) {
-      throw new Error("City not found");
-    }
-
- 
- 
-    if (error.response) {
-      throw new Error("Unable to fetch weather data");
-    }
-
-    console.log("Backend unavailable.");
+    console.log("Backend/API failed.");
     console.log("Using local JSON data.");
 
     const localWeather = weatherData[city];
 
-    if (!localWeather) {
-      throw new Error("City not found");
-    }
+    if (localWeather) {
 
-    return {
-      ...localWeather,
-      source: "local"
-    };
+      console.log("City found in local JSON.");
+
+      return {
+        ...localWeather,
+        source: "local"
+      };
+    }
+    console.log("City not found in local JSON.");
+
+    throw new Error("City not found");
   }
 }
