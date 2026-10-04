@@ -16,7 +16,7 @@ function Header({ weather }) {
 
       <div className="location">
         <span className="location-icon"> <FontAwesomeIcon icon={faLocationDot} /></span>
-        {weather.city}, India
+        {weather.city}, {weather.country}
       </div>
 
     </header>

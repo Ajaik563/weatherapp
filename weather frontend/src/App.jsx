@@ -13,7 +13,6 @@ import "./App.css";
 
 function App() {
 
-  // Initial data comes from local JSON
   const [weather, setWeather] = useState(weatherData["Chennai"]);
 
   const [error, setError] = useState("");
@@ -34,8 +33,7 @@ function App() {
 
     try {
 
-      // Backend ON → backend data
-      // Backend OFF → local JSON
+    
       const result = await getWeather(formattedCity);
 
       setWeather(result);
